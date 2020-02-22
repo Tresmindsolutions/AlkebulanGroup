@@ -1,0 +1,311 @@
+.design_inner .col-lg-7 {
+  vertical-align: middle;
+  align-self: center; }
+.design_inner .design_left_text {
+  /* margin-left: 195px;
+  max-width: 380px; */ } 
+  .design_inner .design_left_text h6 {
+    font-size: 21px;
+    font-family: "Roboto", sans-serif;
+    color: #222222;
+    font-weight: normal;
+    margin-bottom: 40px; }
+  .design_inner .design_left_text h2 {
+    font-size: 36px;
+    line-height: 45px;
+    color: #222222;
+    text-transform: uppercase;
+    margin-bottom: 30px; }
+  .design_inner .design_left_text h5 {
+    font-size: 21px;
+    font-family: "Roboto", sans-serif;
+    color: #222222;
+    font-weight: normal;
+    margin-bottom: 30px; }
+  .design_inner .design_left_text p {
+    margin-bottom: 45px; }
+
+
+   .main_title {
+  text-align: center;
+  margin-bottom: 75px; }
+  .main_title h2 {
+    font-family: "Heebo", sans-serif;
+    font-size: 36px;
+    color: #222222;
+    font-weight: 700;
+    margin-bottom: 15px;
+    text-transform: uppercase; }
+  .main_title p {
+    font-size: 16px;
+    font-family: "Roboto", sans-serif;
+    line-height: 26px;
+    color: #777777;
+    margin-bottom: 0px;
+    max-width: 690px;
+    font-weight: normal;
+    margin: auto; }
+  .main_title.white h2 {
+    color: #fff; }
+  .main_title.white p {
+    color: #fff;
+    opacity: .6; }
+
+
+    /* Feature Area css
+============================================================================================ */
+.feature_area {
+  padding-bottom: 120px; }
+
+.feature_item {
+  padding: 50px 30px;
+  border-radius: 10px;
+  border: 1px solid #eeeeee;
+  transition: all 300ms linear 0s; }
+  .feature_item img {
+    margin-bottom: 35px; }
+  .feature_item h4 {
+    color: #222222;
+    font-size: 20px;
+    font-family: "Heebo", sans-serif;
+    font-weight: 600;
+    margin-bottom: 20px; }
+  .feature_item p {
+    margin-bottom: 36px; }
+  .feature_item .main_btn {
+    padding: 0px 30px;
+    line-height: 38px; }
+  .feature_item:hover {
+    box-shadow: 0px 10px 30px 0px rgba(0, 0, 0, 0.08);
+    border-color: #fff; }
+
+/* End Feature Area css
+============================================================================================ */
+/* Design Area css
+============================================================================================ */
+.design_inner .col-lg-7 {
+  vertical-align: middle;
+  align-self: center; }
+.design_inner .design_left_text {
+  /* margin-left: 195px;
+  max-width: 380px;*/ } 
+  .design_inner .design_left_text h6 {
+    font-size: 21px;
+    font-family: "Roboto", sans-serif;
+    color: #222222;
+    font-weight: normal;
+    margin-bottom: 40px; }
+  .design_inner .design_left_text h2 {
+    font-size: 36px;
+    line-height: 45px;
+    color: #222222;
+    text-transform: uppercase;
+    margin-bottom: 30px; }
+  .design_inner .design_left_text h5 {
+    font-size: 21px;
+    font-family: "Roboto", sans-serif;
+    color: #222222;
+    font-weight: normal;
+    margin-bottom: 30px; }
+  .design_inner .design_left_text p {
+    margin-bottom: 45px; }
+
+/* End Design Area css
+============================================================================================ */
+/* Project Details Area css
+============================================================================================ */
+.portfolio_details_inner .row {
+  margin-bottom: 65px; }
+.portfolio_details_inner p {
+  margin-bottom: 30px; }
+  .portfolio_details_inner p:last-child {
+    margin-bottom: 0px; }
+.portfolio_details_inner .portfolio_right_text {
+  padding-left: 98px; }
+  .portfolio_details_inner .portfolio_right_text h4 {
+    color: #222222;
+    font-size: 24px;
+    margin-bottom: 18px;
+    text-transform: uppercase;
+    margin-top: 40px; }
+  .portfolio_details_inner .portfolio_right_text p {
+    margin-bottom: 30px; }
+  .portfolio_details_inner .portfolio_right_text .list li {
+    margin-bottom: 7px;
+    color: #777777;
+    font-weight: normal;
+    font-size: 14px; }
+    .portfolio_details_inner .portfolio_right_text .list li span {
+      font-size: 14px;
+      color: #222222;
+      font-weight: 500;
+      width: 97px;
+      display: inline-block; }
+    .portfolio_details_inner .portfolio_right_text .list li:last-child {
+      margin-bottom: 0px; }
+    .portfolio_details_inner .portfolio_right_text .list li i {
+      color: #f1cd09; }
+  .portfolio_details_inner .portfolio_right_text .social {
+    margin-top: 35px; }
+    .portfolio_details_inner .portfolio_right_text .social li {
+      display: inline-block;
+      margin-right: 10px; }
+      .portfolio_details_inner .portfolio_right_text .social li a i {
+        color: #222222; }
+      .portfolio_details_inner .portfolio_right_text .social li:last-child {
+        margin-right: 0px; }
+
+/* End Project Details Area css
+============================================================================================ */
+/*---------------------------------------------------- */
+/*----------------------------------------------------*/
+/* Testimonials Area css
+============================================================================================ */
+.testimonials_area {
+  position: relative; }
+  .testimonials_area .owl-prev, .testimonials_area .owl-next {
+    position: absolute;
+    right: 150px;
+    background: #fff;
+    font-size: 24px;
+    color: #c1c1c1;
+    padding-left: 10px;
+    padding-right: 10px;
+    transition: all 300ms linear 0s;
+    cursor: pointer;
+    box-shadow: -14.142px 14.142px 20px 0px rgba(157, 157, 157, 0.2); }
+    .testimonials_area .owl-prev:hover, .testimonials_area .owl-next:hover {
+      color: #222222; }
+  .testimonials_area .owl-prev {
+    bottom: 50%;
+    padding-top: 15px;
+    padding-bottom: 10px; }
+    .testimonials_area .owl-prev:before {
+      content: "";
+      width: 28px;
+      background: #e8e8e8;
+      position: absolute;
+      left: 50%;
+      transform: translateX(-50%);
+      bottom: 0px;
+      height: 1px; }
+  .testimonials_area .owl-next {
+    top: 50%;
+    padding-top: 10px;
+    padding-bottom: 15px; }
+  .testimonials_area .owl-dots {
+    text-align: center; }
+    .testimonials_area .owl-dots .owl-dot {
+      height: 14px;
+      width: 14px;
+      background: #eeeeee;
+      display: inline-block;
+      margin-right: 10px; }
+      .testimonials_area .owl-dots .owl-dot:last-child {
+        margin-right: 0px; }
+      .testimonials_area .owl-dots .owl-dot.active {
+        background: #a7cb00; }
+
+.testi_slider {
+  margin-top: -30px;
+  margin-bottom: -30px; }
+
+.testi_item {
+  padding: 30px 0px; }
+  .testi_item .media {
+    border-radius: 10px;
+    padding: 40px;
+    background: #fff;
+    transition: all 300ms linear 0s;
+    border: 1px solid #eeeeee; }
+    .testi_item .media .d-flex {
+      padding-right: 25px; }
+    .testi_item .media .media-body p {
+      margin-bottom: 20px; }
+    .testi_item .media .media-body h4 {
+      color: #222222;
+      font-family: "Roboto", sans-serif;
+      font-weight: 500;
+      font-size: 20px;
+      transition: all 300ms linear 0s; }
+    .testi_item .media .media-body h5 {
+      margin-bottom: 0px;
+      font-size: 14px;
+      color: #777777;
+      font-weight: normal;
+      font-family: "Roboto", sans-serif; }
+    .testi_item .media .media-body .rating i {
+      color: #ffc000; }
+  .testi_item:hover .media {
+    box-shadow: 0px 10px 30px 0px rgba(157, 157, 157, 0.2);
+    background: #fff;
+    border-color: #fff; }
+    .testi_item:hover .media .media-body h4 {
+      color: #a7cb00; }
+
+/* End Testimonials Area css
+============================================================================================ */
+/*---------------------------------------------------- */
+/*----------------------------------------------------*/
+/* Post Slider Area css
+============================================================================================ */
+.post_s_item {
+  position: relative;
+  overflow: hidden;
+border-radius: 2%; }
+  .post_s_item .post_img {
+    position: relative; }
+    .post_s_item .post_img:before {
+      content: "";
+      background: rgba(0, 0, 0, 0.6);
+      position: absolute;
+      left: 0px;
+      top: 0px;
+      height: 100%;
+      width: 100%; }
+  .post_s_item .post_text {
+    position: absolute;
+    left: 40px;
+    bottom: 40px;
+    max-width: 355px; }
+    .post_s_item .post_text h4 {
+      font-size: 21px;
+      font-family: "Heebo", sans-serif;
+      line-height: 27px;
+      text-transform: uppercase;
+      color: #fff;
+      padding-right: 20px;
+      margin-bottom: 20px;
+      transition: all 300ms linear 0s; }
+      .post_s_item .post_text h4:hover {
+        color: #a7cb00; }
+    .post_s_item .post_text p {
+      font-size: 14px;
+      line-height: 24px;
+      color: #fff;
+      margin-bottom: 35px; }
+    .post_s_item .post_text .main_btn {
+      line-height: 40px;
+      padding: 0px 40px;
+      box-shadow: none; }
+      .item{
+        margin:10px;
+      }
+/* End Post Slider Area css
+============================================================================================ */
+
+.main_btn{
+  background-color: #FFBF06 !important;
+  border-color: #FFBF06 !important;
+  margin-top: 20px;
+}
+
+.post_s_item .post_text h4:hover {
+ color: #FFBF06!important;
+
+}
+
+.testimonials_area .owl-dots .owl-dot.active{
+ background:#FFBF06!important; 
+}
+

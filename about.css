@@ -1,0 +1,191 @@
+
+.about-father{
+	width: 100%;
+	padding: 20px;
+	margin-bottom:10%;
+	overflow-x: hidden;
+}
+
+
+
+.company {
+	width: 300px;
+	height: 250px;
+	border-right: 2px solid #E5E5E5;
+	margin-top: 10px;
+	position: relative;
+	justify-content: flex-start;
+	
+}
+
+
+.intro {
+	margin-top: 100px;
+	width: 100%;
+	display: grid;
+	grid-template-columns: 30% 70%;
+	grid-gap: 50px;
+
+	
+		
+}
+
+
+.about-main,.co-founders {
+	margin-top: 100px;
+	display: grid;
+	grid-template-columns: 50% 50%;
+	
+	margin-left: 80px;
+	margin-right: 80px;
+	grid-gap: 20px;
+	
+
+
+	
+
+}
+
+.about-start {
+	text-align: center;
+	margin-top: 100px;
+	margin-bottom: 50px;
+	font-size: 40px;
+	color: #747474;
+}
+
+.owner-name {
+	font-size: 20px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	font-weight: 500;
+}
+
+.owner-two,.Davey {
+	width: 250px;
+	height: 300px;
+	border-radius: 2%;	
+	position: relative;
+}
+
+.About-heading {
+	font-size: 30px;
+	margin-bottom: 10px;
+}
+
+
+
+.intro-content {
+	width: 70%;
+	line-height: 30px;
+	font-family: sans-serif;
+	font-weight: 500;
+	color: #444444;
+}
+
+.about-content {
+		
+	justify-content: flex-start;
+	line-height: 25px;
+	font-family:sans-serif;
+	font-weight: 500;
+	color: #444444; 
+
+	width: 80% !important;
+	padding:2px;
+
+
+
+}
+
+
+
+
+@media screen and (max-width: 756px){
+	.intro{
+		display: flex;
+		flex-direction: column;
+
+	}
+
+	.company-logo{
+		flex: 1;
+	
+}
+
+	.company{
+		width: 350px;
+	height: 250px;
+	border: none;
+	margin-top: 30px;
+		
+	}
+
+	.intro-content {
+		width: 100%;
+
+	}
+	.intro-content-media {
+		flex: 1;
+		margin-left: 50px;
+	}
+
+	.about-main {
+		display: flex;
+		flex-direction: column;
+	}
+
+	.first-owner {
+		flex: 1;
+		margin-bottom: 100px;
+		width: 100%;
+		
+	}
+
+	.about-content {
+		width: 100% !important;
+	}
+
+
+
+	.Second-owner{
+		flex: 1;
+	}
+
+}
+
+
+@media screen and (max-width: 499px){
+ .about-main {
+ 	margin-left: 10px;
+ 	margin-right: 10px;
+ }
+
+ .owner-name{
+ 	text-align: center;
+ }
+
+ .Davey,.owner-two{
+ 	display: block;
+  margin-left: auto;
+  margin-right: auto;
+ 
+ }
+.about-content{
+    width:100% !important;
+} 	
+
+}
+
+
+@media screen and (max-width:368px) AND (orientation : portrait){
+	.halfPage {
+		width: 368px;
+	}
+	
+	.about-father{
+		width: 368px;
+	}
+}
+	
+

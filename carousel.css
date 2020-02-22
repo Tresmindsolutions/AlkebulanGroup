@@ -1,0 +1,30 @@
+.carousel{
+    /* z-index : -1; */
+  
+ }
+
+ .img-fluid{
+     border-radius: 2%;
+ }
+
+
+ .text-on-image {
+     position: absolute;
+     top: 350px;
+     left: 50px;
+     
+ }
+
+ .main-text {
+     font-weight: bold;
+     color: #ffffff;
+     font-size: 40px;
+     letter-spacing: 1px;
+ }
+
+ .second-text {
+     font-weight: bold;
+     color: #ffffff;
+     font-size: 30px;
+     letter-spacing: .8px;
+ }

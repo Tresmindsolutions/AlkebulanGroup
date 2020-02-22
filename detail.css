@@ -1,0 +1,93 @@
+
+
+.cover-design {
+	width: 100%;
+	height: 400px;
+	
+	
+}
+
+hr {
+	margin-top: 100px;
+	border: 1px solid #E5E5E5;
+
+}
+
+.design-text {
+	position: absolute;
+	left: 15%;
+	font-size: 30px;
+	top: 250px;
+
+	
+
+}
+
+.design-img {
+	width: 100%;
+	height: 400px;
+}
+
+
+
+.image-box{
+	width: 100%;
+	height: 80vh;
+	
+}
+.image {
+	width: 100%;
+	height: 80vh;
+	background-size: 100% 100%;
+}
+
+.content-box {
+	margin: 50px;
+	 border-collapse: collapse; 
+}
+
+.content-box h4 {
+	font-weight: 600;
+	font-size: 20px;
+	color:black
+}
+
+.content-box p {
+	
+	margin-top: 20px;
+	line-height: 30px;
+}
+
+.table-content {
+	margin: 50px;
+	width: 60%;
+	
+
+}
+
+
+.table-content .row th {
+	font-size: bold;
+	padding: 30px;
+
+}
+
+.table-content th {
+	width: 25%;
+}
+
+
+
+.table-content th,td {
+	
+	border-top: 1px solid #E7E7E7;
+	border-left: 1px solid #E7E7E7;
+	border-right: 1px solid #E7E7E7;
+	border-bottom: 1px solid #E7E7E7;
+}
+
+.table-content td p {
+	margin-left: 20px;
+	margin-top: 10px; 
+}
+

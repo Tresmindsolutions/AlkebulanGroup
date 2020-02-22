@@ -1,0 +1,126 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: sans-serif;
+}
+
+.main-body {
+	position: relative;
+}
+
+
+.frame {
+	width: 100%;
+	height: auto;
+	text-align: center;
+	
+}
+
+.frame img {
+	width: 100%;
+	height: 80vh;
+	background-size: 100% 100%;
+
+}
+
+
+
+.content-invest {
+	margin: 1.5rem auto;
+	width: 70%;
+	margin-bottom: 100px;
+	margin-top: 50px;
+}
+
+
+
+.result-head {
+	letter-spacing: 1px;
+	font-size: 25px;
+	border-bottom: 1px solid #e8e5e3;
+	padding: 10px;
+
+}
+
+.para {
+	letter-spacing: .8px;
+	padding: 5px;
+	margin-top: 10px;
+
+}
+
+.content-box {
+	margin: 50px;
+	 border-collapse: collapse; 
+}
+
+.content-box h4 {
+	font-weight: 600;
+	font-size: 20px;
+	color:black
+}
+
+.content-box p {
+	
+	margin-top: 20px;
+	line-height: 30px;
+}
+
+.table-content {
+	margin: 50px;
+	width: 60%;
+	
+
+}
+
+
+.table-content .row th {
+	font-size: bold;
+	padding: 30px;
+
+}
+
+.table-content th {
+	width: 25%;
+}
+
+
+
+.table-content th,td {
+	
+	border-top: 1px solid #E7E7E7;
+	border-left: 1px solid #E7E7E7;
+	border-right: 1px solid #E7E7E7;
+	border-bottom: 1px solid #E7E7E7;
+}
+
+.table-content td p {
+	margin-left: 20px;
+	margin-top: 10px; 
+}
+
+
+
+@keyframes text {
+	0% {
+		 letter-spacing: 3px;
+		 left: -30%;
+	}
+}
+
+@media screen and (max-width: 430px) {
+	.frame .quote {
+		top: 15%;
+		color: black;
+	}
+
+}
+@media screen and (max-width: 370px){
+	.main-body{
+		width:370px;
+	}
+}
+
+
+
